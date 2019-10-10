@@ -1,0 +1,21 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/DialogLayout"
+	>
+	<FrameLayout
+		style="@style/DialogSpinnerLayout"
+		>
+		<TextView
+			android:id="@+id/PROGRESS_STATUS"
+			style="@style/DialogStatus"
+			/>
+		<ProgressBar
+			android:id="@+id/PROGRESS_SPINNER"
+			style="@style/DialogSpinner"
+			/>
+	</FrameLayout>
+	<ProgressBar
+		android:id="@+id/PROGRESS_BAR"
+		style="@style/DialogProgressBar"
+		/>
+</LinearLayout>

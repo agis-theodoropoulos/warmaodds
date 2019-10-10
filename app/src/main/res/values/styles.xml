@@ -1,0 +1,66 @@
+<resources>
+
+	<!--
+		Base application theme, dependent on API level. This theme is replaced
+		by BaseTheme from res/values-vXX/styles.xml on newer devices.
+	-->
+	<style name="BaseTheme" parent="android:Theme.Light">
+		<!--
+			Theme customizations available in newer API levels can go in
+			res/values-vXX/styles.xml, while customizations related to
+			backward-compatibility can go here.
+		-->
+	</style>
+
+	<!-- Application theme. -->
+	<style name="Theme" parent="BaseTheme">
+		<!-- All customizations that are NOT specific to a particular API-level can go here. -->
+		<!-- spinners -->
+		<item name="android:spinnerStyle">@style/Spinner</item>
+		<item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+		<item name="android:dropDownListViewStyle">@style/SpinnerDropDown</item>
+		<item name="android:spinnerDropDownItemStyle">@style/SpinnerDropdownItem</item>
+
+		<!-- overflow menu -->
+		<item name="android:itemTextAppearance">@style/OverflowMenuTextStyle</item>
+		<item name="android:itemBackground">@color/menu.background</item>
+
+		<item name="android:actionBarStyle">@style/ActionBar</item>
+		<item name="android:windowBackground">@color/background</item>
+	</style>
+
+	<style name="Spinner" parent="@style/BaseSpinner">
+		<item name="android:layout_gravity">fill_horizontal</item>
+	</style>
+
+	<style name="SpinnerDropDown" parent="@style/BaseSpinnerDropDown">
+		<item name="android:divider">@color/spinner.dropdown.divider</item>
+		<item name="android:dividerHeight">@dimen/spinner.dropdown.dividerHeight</item>
+		<item name="android:background">@color/spinner.dropdown.divider</item>
+	</style>
+
+	<style name="SpinnerItem" parent="@style/BaseSpinnerItem">
+		<item name="android:textSize">@dimen/attack.spinner.text</item>
+		<item name="android:textColor">@color/text_dark</item>
+		<item name="android:gravity">end</item>
+	</style>
+
+	<style name="SpinnerDropdownItem" parent="@style/BaseSpinnerDropdownItem">
+		<item name="android:textColor">@color/spinner.dropdown.text</item>
+		<item name="android:background">@color/spinner.dropdown.background</item>
+		<item name="android:padding">@dimen/spinner.dropdown.padding</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+	<style name="OverflowMenuTextStyle" parent="@style/BaseOverflowMenuTextStyle">
+		<item name="android:textColor">@color/menu.text</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:textSize">@dimen/menu.text</item>
+	</style>
+
+	<style name="ActionBar" parent="@style/BaseActionBar">
+		<item name="android:displayOptions"></item>
+		<item name="android:background">@color/actionbar</item>
+	</style>
+
+</resources>

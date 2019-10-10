@@ -1,0 +1,62 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- theme -->
+	<style name="Theme.Main">
+		<item name="android:spinnerStyle">@style/Spinner.Main</item>
+	</style>
+
+	<style name="Spinner.Main">
+	</style>
+
+	<style name="AttacksWrapperLayout">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+	<!-- fragments -->
+	<style name="AttacksFragment">
+		<item name="android:name">com.eureton.warmaodds.views.impl.AttacksFragment</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+	</style>
+
+	<style name="TotalsFragment">
+		<item name="android:name">com.eureton.warmaodds.views.impl.TotalsFragment</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Root">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:gravity">bottom</item>
+	</style>
+
+	<style name="AddAttackBtn" parent="@style/BaseButton">
+		<item name="android:layout_width">@dimen/add_btn</item>
+		<item name="android:layout_height">@dimen/add_btn</item>
+		<item name="android:layout_marginEnd">@dimen/add_btn_margin</item>
+		<item name="android:layout_marginBottom">@dimen/add_btn_margin</item>
+		<item name="android:layout_gravity">bottom|end</item>
+		<item name="android:src">@drawable/ic_action_new</item>
+		<item name="android:background">@drawable/add_attack_button</item>
+	</style>
+
+	<style name="AttacksLayout">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:background">@drawable/attacks</item>
+	</style>
+
+	<style name="AttackContainer">
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:animateLayoutChanges">true</item>
+		<item name="android:divider">@drawable/attack_divider</item>
+		<item name="android:showDividers">middle</item>
+		<item name="android:paddingBottom">@dimen/attacks.occlusion_fix</item>
+	</style>
+
+</resources>

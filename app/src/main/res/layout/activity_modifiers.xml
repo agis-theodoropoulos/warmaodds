@@ -1,0 +1,19 @@
+<com.eureton.warmaodds.widgets.SlidingPanelLayout
+	style="@style/Root"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:sothree="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	sothree:umanoShadowHeight="@dimen/main.sliding_shadow"
+	sothree:showTillTopOf="@+id/TOTALS_ROW_BOXES_HIT"
+	tools:context="com.eureton.warmaodds.views.impl.ModifiersActivity"
+	tools:ignore="MergeRootFrame"
+	>
+	<fragment
+		style="@style/ModifiersFragmentLayout"
+		android:id="@+id/FRAGMENT_MODIFIERS"
+		/>
+	<fragment
+		style="@style/TotalsFragment"
+		android:id="@+id/FRAGMENT_TOTALS"
+		/>
+</com.eureton.warmaodds.widgets.SlidingPanelLayout>

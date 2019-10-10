@@ -1,0 +1,56 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="IconStat">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/item_labelled_icon</item>
+		<item name="android:paddingTop">@dimen/actionbar_widget.padding</item>
+		<item name="android:paddingBottom">@dimen/icon_stat.padding_bottom</item>
+		<item name="android:paddingLeft">@dimen/icon_stat.padding_left</item>
+		<item name="android:paddingRight">@dimen/icon_stat.padding_right</item>
+		<item name="android:clickable">true</item>
+	</style>
+
+	<style name="IconStatImage">
+		<item name="android:layout_alignTop">@+id/action_item_textview</item>
+		<item name="android:layout_alignBottom">@+id/action_item_textview</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginRight">@dimen/icon_stat.image.margin</item>
+		<item name="android:paddingTop">@dimen/icon_stat.image.padding</item>
+		<item name="android:paddingBottom">@dimen/icon_stat.image.padding</item>
+	</style>
+
+	<style name="IconStatText">
+		<item name="android:layout_toRightOf">@+id/action_item_image</item>
+		<item name="android:gravity">center</item>
+		<item name="android:minWidth">@dimen/icon_stat.text.min_width</item>
+		<item name="android:textSize">@dimen/icon_stat.text.size</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:textColor">@color/icon_stat.text</item>
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:includeFontPadding">false</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:padding">0dp</item>
+		<item name="android:minHeight">0dp</item>
+	</style>
+
+	<style name="IconStatUnderline">
+		<item name="android:layout_marginTop">@dimen/icon_stat.text.underline.margin</item>
+		<item name="android:layout_alignLeft">@+id/action_item_textview</item>
+		<item name="android:layout_alignRight">@+id/action_item_textview</item>
+		<item name="android:layout_below">@+id/action_item_textview</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">@dimen/icon_stat.text.underline.height</item>
+		<item name="android:background">@color/icon_stat.text.underline</item>
+	</style>
+
+	<style name="IconToggle">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/item_labelled_icon</item>
+		<item name="android:padding">@dimen/actionbar_widget.padding</item>
+	</style>
+
+</resources>

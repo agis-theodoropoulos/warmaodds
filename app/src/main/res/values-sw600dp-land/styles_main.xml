@@ -1,0 +1,39 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- fragments -->
+    <style name="AttacksFragment">
+        <item name="android:name">com.eureton.warmaodds.views.impl.AttacksFragment</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_toLeftOf">@id/FRAGMENT_MODIFIERS</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <!-- irrelevant but necessary or else the app crashes -->
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="ModifiersFragment">
+        <item name="android:name">com.eureton.warmaodds.views.impl.ModifiersFragment</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignLeft">@id/FRAGMENT_TOTALS</item>
+        <item name="android:layout_above">@id/FRAGMENT_TOTALS</item>
+
+        <!-- irrelevant but necessary or else the app crashes -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TotalsFragment">
+        <item name="android:name">com.eureton.warmaodds.views.impl.TotalsFragment</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MainPanel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>

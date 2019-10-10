@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- defaults -->
+	<integer name="default.type">1</integer> <!-- MAT -->
+	<string name="default.attack_modifier">NONE</string>
+	<string name="default.damage_modifier">NONE</string>
+	<string name="default.onhit_modifier">NONE</string>
+	<string name="default.oncrit_modifier">NONE</string>
+	<string name="default.onkill_modifier">NONE</string>
+
+    <integer name="default.boxes">16</integer>
+    <integer name="default.boxes.min">1</integer>
+    <integer name="default.boxes.max">99</integer>
+    
+    <integer name="default.focus">0</integer>
+    <integer name="default.focus.min">0</integer>
+    <integer name="default.focus.max">15</integer>
+    
+    <integer name="default.fury">0</integer>
+    <integer name="default.fury.min">0</integer>
+    <integer name="default.fury.max">10</integer>
+
+    <integer name="default.mat">6</integer>
+    <integer name="default.def">15</integer>
+    <integer name="default.attackdice">2</integer>
+    <integer name="default.pns">12</integer>
+    <integer name="default.arm">16</integer>
+    <integer name="default.damagedice">2</integer>
+
+    <bool name="default.kds">false</bool>
+    <bool name="default.tough">false</bool>
+
+    <bool name="device.phone">true</bool>
+    <bool name="device.tablet.portrait">false</bool>
+    <bool name="device.tablet.landscape">false</bool>
+</resources>

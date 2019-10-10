@@ -1,0 +1,66 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="TotalsLayout">
+		<item name="android:background">@drawable/totals</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingTop">@dimen/totals.padding_top</item>
+		<item name="android:paddingRight">@dimen/totals.padding_right</item>
+		<item name="android:paddingBottom">@dimen/totals.padding_bottom</item>
+		<item name="android:paddingLeft">@dimen/totals.padding_left</item>
+	</style>
+
+	<style name="TotalsRow">
+		<item name="android:gravity">center_horizontal</item>
+	</style>
+
+	<style name="TotalsIcon">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:padding">0dp</item>
+	</style>
+
+	<style name="TotalsTextView">
+		<item name="android:textColor">@color/totals.text</item>
+		<item name="android:textSize">@dimen/totals.textSize</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">end</item>
+		<item name="android:paddingTop">@dimen/totals.cell.padding_top</item>
+		<item name="android:paddingRight">@dimen/totals.cell.padding_right</item>
+		<item name="android:paddingBottom">@dimen/totals.cell.padding_bottom</item>
+		<item name="android:paddingLeft">@dimen/totals.cell.padding_left</item>
+	</style>
+
+	<style name="TotalsTextView.Caption">
+	</style>
+
+	<style name="TotalsTextView.Value">
+		<item name="android:typeface">monospace</item>
+	</style>
+
+	<style name="TotalsIconRow">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:layout_marginTop">@dimen/totals.icon_row.margin_top</item>
+		<item name="android:layout_marginBottom">@dimen/totals.icon_row.margin_bottom</item>
+		<item name="android:orientation">horizontal</item>
+	</style>
+
+	<style name="TotalsTextView.Value.Top">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:padding">0dp</item>
+	</style>
+
+	<style name="TotalsTextView.Value.Top.Attacks">
+		<item name="android:layout_marginRight">@dimen/totals.icon_row.interval</item>
+		<item name="android:minWidth">@dimen/totals.icon_row.attacks.min_width</item>
+	</style>
+
+	<style name="TotalsTextView.Value.Top.Kill">
+		<item name="android:minWidth">@dimen/totals.icon_row.kill.min_width</item>
+	</style>
+
+</resources>

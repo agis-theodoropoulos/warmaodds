@@ -1,0 +1,81 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="DialogTheme" parent="@style/BaseDialog">
+		<!-- window -->
+		<item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+		<item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+		<item name="android:windowIsFloating">true</item>
+
+		<!-- text -->
+		<item name="android:windowTitleStyle">@style/DialogTitle</item>
+		<item name="android:textColorPrimary">@color/dialogs.message.text</item>
+		<!--
+		<item name="android:textColorAlertDialogListItem">@android:color/holo_orange_light</item>
+		-->
+		<item name="android:textAppearanceMedium">@style/DialogMessageText</item>
+		<item name="android:textAppearanceLarge">@style/DialogTitleText</item>
+		<item name="android:borderlessButtonStyle">@style/DialogButton</item>
+	</style>
+
+	<style name="DialogTitle">
+		<item name="android:maxLines">1</item>
+		<item name="android:scrollHorizontally">true</item>
+		<item name="android:textAppearance">@style/DialogTitleText</item>
+	</style>
+
+	<style name="DialogTitleText" parent="@style/BaseDialogTitleText">
+		<item name="android:textColor">@color/dialogs.title.text</item>
+	</style>
+
+	<style name="DialogMessageText" parent="@style/BaseDialogMessageText">
+		<item name="android:textSize">@dimen/dialog.message.text</item>
+	</style>
+
+	<style name="DialogButton" parent="@style/BaseDialogButton">
+		<item name="android:textColor">@color/dialogs.buttons.text</item>
+	</style>
+
+	<style name="DialogLayout">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:gravity">center</item>
+		<item name="android:paddingTop">@dimen/dialog.progress.padding_top</item>
+		<item name="android:paddingBottom">@dimen/dialog.progress.padding_bottom</item>
+		<item name="android:paddingLeft">@dimen/dialog.progress.padding_left</item>
+		<item name="android:paddingRight">@dimen/dialog.progress.padding_right</item>
+	</style>
+
+	<style name="DialogSpinnerLayout">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="DialogStatus">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:textColor">@color/dialog.progress.status.text</item>
+		<item name="android:textSize">@dimen/dialog.progress.status.text</item>
+	</style>
+
+	<style name="DialogSpinner">
+		<item name="android:layout_width">@dimen/dialog.progress.spinner</item>
+		<item name="android:layout_height">@dimen/dialog.progress.spinner</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:indeterminate">true</item>
+		<item name="android:indeterminateBehavior">repeat</item>
+		<item name="android:indeterminateDrawable">@drawable/spinning_cog</item>
+		<item name="android:indeterminateDuration">7000</item>
+		<item name="android:indeterminateOnly">true</item>
+	</style>
+
+	<style name="DialogProgressBar" parent="@style/BaseDialogProgressBar">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:indeterminate">false</item>
+		<item name="android:max">100</item>
+		<item name="android:visibility">gone</item>
+	</style>
+
+</resources>

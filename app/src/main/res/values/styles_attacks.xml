@@ -1,0 +1,101 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="Roll">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="AttackStatsFiller">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">1dp</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+
+	<style name="AttackStatsLayout">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:background">@drawable/attack_stats</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:paddingBottom">@dimen/attack.stats.padding_bottom</item>
+		<item name="android:gravity">bottom</item>
+	</style>
+
+	<!-- attack stats -->
+	<style name="AttackStatsDamageRollLayout">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+
+	<style name="AttackStatsSpinner">
+		<item name="android:minWidth">@dimen/attack.spinner.min_width</item>
+		<item name="android:layout_gravity">fill_horizontal</item>
+	</style>
+
+	<style name="AttackHandle">
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:contentDescription">@string/drawer_handle</item>
+		<item name="android:layout_width">@dimen/drawer_handle_width</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_gravity">center</item>
+	</style>
+
+	<style name="AttackModifiedBadge">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">right</item>
+		<item name="android:layout_marginTop">@dimen/attack.badge.margin_top</item>
+		<item name="android:layout_marginRight">@dimen/attack.badge.margin_right</item>
+		<item name="android:layout_marginBottom">@dimen/attack.badge.margin_bottom</item>
+		<item name="android:background">@drawable/badge_background</item>
+		<item name="android:text">@string/attack.badge</item>
+		<item name="android:textSize">@dimen/attack.badge.text</item>
+		<item name="android:textColor">@drawable/badge_text</item>
+	</style>
+
+	<style name="AttackStatsTextView">
+		<item name="android:layout_gravity">center_horizontal</item>
+		<item name="android:textColor">@color/attack.stats.txt</item>
+		<item name="android:minWidth">48dp</item>
+		<item name="android:minHeight">32dp</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+	<style name="AttackStatsRemoveBtn">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:src">@drawable/remove_attack_button_src</item>
+		<item name="android:background">@drawable/remove_attack_button_background</item>
+		<item name="android:contentDescription">@string/remove_attack</item>
+		<item name="android:padding">@dimen/attack.remove_button.padding</item>
+	</style>
+
+	<!-- attack results -->
+	<style name="AttackResultsLayout">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_gravity">end</item>
+		<item name="android:background">@drawable/attack_results</item>
+		<item name="android:padding">@dimen/attack.results.padding</item>
+	</style>
+
+	<style name="AttackResultsRowLayout">
+		<item name="android:layout_weight">1</item>
+	</style>
+
+	<style name="AttackResultsTextView">
+		<item name="android:layout_gravity">center_vertical|right</item>
+	</style>
+
+	<style name="AttackResultsTextView.Caption">
+		<item name="android:textColor">@color/attack.results.caption.txt</item>
+	</style>
+
+	<style name="AttackResultsTextView.Result">
+		<item name="android:typeface">monospace</item>
+		<item name="android:text">@string/attack.results.placeholder</item>
+		<item name="android:textColor">@color/attack.results.value.txt</item>
+	</style>
+
+</resources>

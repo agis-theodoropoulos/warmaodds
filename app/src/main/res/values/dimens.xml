@@ -1,0 +1,105 @@
+<resources>
+	<dimen name="actionbar_widget.padding">13dp</dimen>
+
+	<!--
+		 must be equal to:
+			actionbar_widget.padding -
+				icon_stat.text.underline.margin -
+				icon_stat.text.underline.height
+	-->
+	<dimen name="icon_stat.padding_bottom">8dp</dimen>
+	<dimen name="icon_stat.padding_left">7dp</dimen>
+	<dimen name="icon_stat.padding_right">10dp</dimen>
+
+	<dimen name="icon_stat.image.padding">4dp</dimen>
+	<dimen name="icon_stat.image.margin">3dp</dimen>
+	<dimen name="icon_stat.text.min_width">22dp</dimen>
+	<dimen name="icon_stat.text.size">20dp</dimen>
+	<dimen name="icon_stat.text.underline.margin">2dp</dimen>
+	<dimen name="icon_stat.text.underline.height">3dp</dimen>
+
+	<dimen name="attack.divider_height">1dp</dimen>
+	<dimen name="attack.handle_image_offset">1dp</dimen>
+	<dimen name="attack.spinner.min_width">50dp</dimen>
+	<dimen name="attack.spinner.text">14dp</dimen>
+	<dimen name="attack.badge.padding_horizontal">7dp</dimen>
+	<dimen name="attack.badge.padding_vertical">2dp</dimen>
+	<dimen name="attack.badge.corner_radius">16dp</dimen>
+	<dimen name="attack.badge.text">10sp</dimen>
+	<dimen name="attack.badge.margin_top">6dp</dimen>
+	<dimen name="attack.badge.margin_right">4dp</dimen>
+	<dimen name="attack.badge.margin_bottom">0dp</dimen>
+
+	<dimen name="dialog.message.text">15dp</dimen>
+	<dimen name="dialog.progress.status.text">25dp</dimen>
+	<dimen name="dialog.progress.spinner">200dp</dimen>
+	<dimen name="dialog.progress.padding_top">0dp</dimen>
+	<dimen name="dialog.progress.padding_bottom">20dp</dimen>
+	<dimen name="dialog.progress.padding_left">20dp</dimen>
+	<dimen name="dialog.progress.padding_right">20dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- main -->
+    <dimen name="main.sliding_shadow">12dp</dimen>
+
+    <!-- menu -->
+    <dimen name="menu.text">18sp</dimen>
+
+    <!-- spinner -->
+    <dimen name="spinner.dropdown.dividerHeight">1dp</dimen>
+    <dimen name="spinner.dropdown.padding">10dp</dimen>
+
+    <!-- Add attack button -->
+    <dimen name="add_btn">70dp</dimen>
+    <dimen name="add_btn_bg">30dp</dimen>
+    <dimen name="add_btn_margin">15dp</dimen>
+    <dimen name="add_btn_shadow_offset">-7dp</dimen>
+
+    <!-- Remove attack button -->
+    <dimen name="remove_btn">40dp</dimen>
+    <dimen name="remove.ic.width">20dp</dimen>
+    <dimen name="remove.ic.height">20dp</dimen>
+
+	<dimen name="drawer_handle_width">16dp</dimen>
+
+	<!--
+		must be equal to the add button's height
+		plus twice its vertical margin
+	-->
+	<dimen name="attacks.occlusion_fix">100dp</dimen>
+
+    <dimen name="attack.remove_button">16dp</dimen>
+    <dimen name="attack.remove_button.padding">10dp</dimen>
+	<dimen name="attack.stats.padding_bottom">4dp</dimen>
+	<dimen name="attack.results.padding">8dp</dimen>
+
+	<!-- Totals -->
+	<dimen name="totals.handle.margin_top">8dp</dimen>
+	<dimen name="totals.icon_row.interval">90dp</dimen>
+	<dimen name="totals.icon_row.margin_top">0dp</dimen>
+	<dimen name="totals.icon_row.margin_bottom">4dp</dimen>
+	<dimen name="totals.icon_row.attacks.min_width">23dp</dimen>
+	<dimen name="totals.icon_row.kill.min_width">32dp</dimen>
+	<dimen name="totals.padding_top">26dp</dimen>
+	<dimen name="totals.padding_right">7dp</dimen>
+	<dimen name="totals.padding_bottom">7dp</dimen>
+	<dimen name="totals.padding_left">7dp</dimen>
+	<dimen name="totals.textSize">17sp</dimen>
+	<dimen name="totals.cell.padding_top">0dp</dimen>
+	<dimen name="totals.cell.padding_right">12dp</dimen>
+	<dimen name="totals.cell.padding_bottom">@dimen/totals.cell.padding_top</dimen>
+	<dimen name="totals.cell.padding_left">0dp</dimen>
+
+	<!-- modifiers -->
+	<dimen name="modifiers.padding_top">6dp</dimen>
+	<dimen name="modifiers.padding_right">18dp</dimen>
+	<dimen name="modifiers.padding_bottom">@dimen/modifiers.padding_top</dimen>
+	<dimen name="modifiers.padding_left">@dimen/modifiers.padding_right</dimen>
+	<dimen name="modifiers.clear_button.padding_top">13dp</dimen>
+	<dimen name="modifiers.clear_button.padding_bottom">@dimen/modifiers.clear_button.padding_top</dimen>
+	<dimen name="modifiers.clear_button.margin_top">20dp</dimen>
+
+</resources>

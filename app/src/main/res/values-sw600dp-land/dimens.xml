@@ -1,0 +1,24 @@
+<resources>
+
+	<!-- attacks -->
+	<dimen name="attack.stats.padding_bottom">2dp</dimen>
+	<dimen name="attack.remove_button">20dp</dimen>
+	<dimen name="attack.remove_button.stroke_width">2dp</dimen>
+
+	<!-- totals -->
+	<dimen name="totals.padding_top">12dp</dimen>
+	<dimen name="totals.padding_right">50dp</dimen>
+	<dimen name="totals.padding_bottom">@dimen/totals.padding_top</dimen>
+	<dimen name="totals.padding_left">@dimen/totals.padding_right</dimen>
+	<dimen name="totals.textSize">20sp</dimen>
+	<dimen name="totals.cell.padding_top">2dp</dimen>
+	<dimen name="totals.cell.padding_right">10dp</dimen>
+	<dimen name="totals.cell.padding_bottom">@dimen/totals.cell.padding_top</dimen>
+	<dimen name="totals.cell.padding_left">10dp</dimen>
+	<dimen name="totals.icon_row.margin_top">30dp</dimen>
+	<dimen name="totals.icon_row.margin_bottom">0dp</dimen>
+	<dimen name="totals.icon_row.interval">60dp</dimen>
+	<dimen name="totals.icon_row.attacks.min_width">25dp</dimen>
+	<dimen name="totals.icon_row.kill.min_width">38dp</dimen>
+
+</resources>

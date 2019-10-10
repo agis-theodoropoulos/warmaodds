@@ -1,0 +1,51 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:local="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/STATS_BODY"
+	style="@style/AttackStatsLayout"
+	>
+	<View style="@style/AttackStatsFiller" />
+	<ImageButton
+		android:id="@+id/BT_REMOVEATTACK"
+		style="@style/AttackStatsRemoveBtn"
+		/>
+	<View style="@style/AttackStatsFiller" />
+	<com.eureton.warmaodds.widgets.HitRoll
+		style="@style/Roll"
+		android:id="@+id/ROLL_ATTACK"
+		local:typeValues="@array/type_values"
+		local:typeDefault="@integer/default.type"
+		local:fromValues="@array/mat_values"
+		local:fromDefault="6"
+		local:toCaption="@string/attacks.def"
+		local:toValues="@array/def_values"
+		local:toDefault="12"
+		local:diceCaption="@string/num_dice"
+		local:diceValues="@array/attack_dice_values"
+		local:diceDefault="2"
+		/>
+	<View style="@style/AttackStatsFiller" />
+	<LinearLayout
+		style="@style/AttackStatsDamageRollLayout"
+		>
+		<TextView
+			android:id="@+id/ATTACKSTATS_MODIFIED_BADGE"
+			style="@style/AttackModifiedBadge"
+			/>
+		<com.eureton.warmaodds.widgets.DamageRoll
+			style="@style/Roll"
+			android:id="@+id/ROLL_DAMAGE"
+			local:fromCaption="@string/attacks.pns"
+			local:fromValues="@array/pow_values"
+			local:fromDefault="10"
+			local:toCaption="@string/attacks.arm"
+			local:toValues="@array/arm_values"
+			local:toDefault="15"
+			local:diceCaption="@string/num_dice"
+			local:diceValues="@array/damage_dice_values"
+			local:diceDefault="2"
+			/>
+	</LinearLayout>
+	<View style="@style/AttackStatsFiller" />
+</LinearLayout>

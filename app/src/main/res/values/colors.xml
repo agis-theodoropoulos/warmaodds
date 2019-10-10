@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- light theme -->
+    <color name="statusbar">#cb8a00</color>
+    <color name="actionbar">#fcab00</color>
+    <color name="background">#d3c8b2</color>
+    <color name="background_secondary">#aba08a</color>
+    <color name="text_light">#f5f5f5</color>
+    <color name="text_dark">#80000000</color>
+	<color name="icon_stat.text">@color/text_light</color>
+    <color name="icon_stat.text.underline">#fdc44c</color>
+    <color name="attack.normal">#fdf8ee</color>
+    <color name="attack.selected">#ede9e0</color>
+	<color name="attack.divider">@color/background</color>
+    <color name="attack.remove_button">#df0846</color>
+    <color name="attack.badge.background.enabled">@color/actionbar</color>
+    <color name="attack.badge.background.disabled">#e7ddc9</color>
+    <color name="attack.badge.text.enabled">@color/text_light</color>
+    <color name="attack.badge.text.disabled">#888</color>
+    <color name="attacks.add_attack_button.normal">#cb8a00</color>
+    <color name="attacks.add_attack_button.pressed">#fcab00</color>
+    <color name="attacks.add_attack_button.disabled">#ddd</color>
+	<color name="totals.background">@color/actionbar</color>
+    <color name="menu.text">@color/text_light</color>
+    <color name="menu.background">@color/statusbar</color>
+	<color name="spinner.dropdown.divider">@color/background</color>
+    <color name="spinner.dropdown.text">@color/text_dark</color>
+    <color name="spinner.dropdown.background">@color/attack.normal</color>
+
+	<color name="modifiers.background">@color/background_secondary</color>
+	<color name="modifiers.caption.text">@color/text_dark</color>
+	<color name="modifiers.reset_button.text">@color/text_light</color>
+
+    <!-- remove attack button -->
+    <color name="remove.ic.ring">@color/text_light</color>
+    <color name="remove.background">#df0846</color>
+
+    <!-- attack -->
+	<color name="attack.stats.txt">@color/text_dark</color>
+	<color name="attack.results.background">@color/background_secondary</color>
+    <color name="attack.results.caption.txt">@color/text_light</color>
+    <color name="attack.results.value.txt">@color/text_light</color>
+    <color name="attack.results.value_highlighted.txt">#ff8A80</color>
+    
+    <!-- totals -->
+    <color name="totals.text">@color/text_light</color>
+
+	<!-- dialog -->
+	<color name="dialog.title.divider">@color/statusbar</color>
+	<color name="dialog.title.progress_bar">@color/actionbar</color>
+	<color name="dialog.progress.status.text">@color/actionbar</color>
+	<color name="dialogs.title.text">@color/actionbar</color>
+	<color name="dialogs.title.divider">@color/statusbar</color>
+	<color name="dialogs.message.text">@color/text_light</color>
+	<color name="dialogs.buttons.text">@color/text_light</color>
+	<color name="dialogs.picker.text">@color/text_light</color>
+	<color name="dialogs.picker.divider">@color/actionbar</color>
+	<color name="dialogs.picker.textHighlight">@color/actionbar</color>
+
+	<!-- boxes dialog -->
+	<color name="dialogs.boxes.picker.text">@color/dialogs.picker.text</color>
+	<color name="dialogs.boxes.picker.divider">@color/dialogs.picker.divider</color>
+	<color name="dialogs.boxes.picker.textHighlight">@color/dialogs.picker.textHighlight</color>
+
+	<!-- focus dialog -->
+	<color name="dialogs.focus.picker.text">@color/dialogs.picker.text</color>
+	<color name="dialogs.focus.picker.divider">@color/dialogs.picker.divider</color>
+	<color name="dialogs.focus.picker.textHighlight">@color/dialogs.picker.textHighlight</color>
+
+	<!-- fury dialog -->
+	<color name="dialogs.fury.picker.text">@color/dialogs.picker.text</color>
+	<color name="dialogs.fury.picker.divider">@color/dialogs.picker.divider</color>
+	<color name="dialogs.fury.picker.textHighlight">@color/dialogs.picker.textHighlight</color>
+</resources>

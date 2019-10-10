@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DiscreetSpinner">
+        <attr name="values" format="reference"/>
+        <attr name="defaultValue" format="string"/>
+    </declare-styleable>
+
+	<declare-styleable name="IconStat">
+		<attr name="icon" format="reference"/>
+	</declare-styleable>
+
+    <declare-styleable name="Roll">
+        <attr name="typeValues" format="reference" />
+        <attr name="typeDefault" format="integer" />
+		<attr name="fromValues" format="reference"></attr>
+        <attr name="fromCaption" format="string" />
+		<attr name="fromDefault" format="integer"></attr>
+		<attr name="toValues" format="reference"></attr>
+		<attr name="toCaption" format="string"></attr>
+		<attr name="toDefault" format="integer"></attr>
+		<attr name="diceCaption" format="string"></attr>
+		<attr name="diceValues" format="reference"></attr>
+		<attr name="diceDefault" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="NumberPicker">
+        <attr name="minValue" format="integer" />
+        <attr name="maxValue" format="integer" />
+        <attr name="value" format="integer" />
+        <attr name="textColor" format="reference" />
+        <attr name="textHighlightColor" format="reference" />
+        <attr name="dividerColor" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageToggleButton">
+        <attr name="onDrawable" format="reference" />
+        <attr name="offDrawable" format="reference" />
+        <attr name="on" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="Drawer">
+        <attr name="topLayout" format="reference" />
+        <attr name="bottomLayout" format="reference" />
+        <attr name="leftHandle" format="reference" />
+        <attr name="rightHandle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeClosableDrawer">
+        <attr name="closeLayout" format="reference" />
+        <attr name="closeIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PagerIndicator">
+        <attr name="dotDrawable" format="reference" />
+        <attr name="selectedColor" format="reference" />
+        <attr name="unselectedColor" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SlidingPanelLayout">
+        <attr name="showTillTopOf" format="reference" />
+        <attr name="showTillBottomOf" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="HtmlAwareTextView">
+        <attr name="htmlText" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:shape="ring"
+	android:thickness="@dimen/attack.remove_button"
+	android:innerRadius="0dp"
+	android:useLevel="false"
+	>
+	<!--
+		stroke is outside the ring, therefore necessary
+		to avoid pixel drift
+	-->
+	<stroke
+		android:width="@dimen/attack.remove_button.stroke_width"
+		android:color="@color/attack.remove_button"
+		/>
+	<solid
+		android:color="@color/attack.remove_button"
+		/>
+</shape>

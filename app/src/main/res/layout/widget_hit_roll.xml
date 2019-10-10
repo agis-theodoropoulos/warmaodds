@@ -1,0 +1,28 @@
+<merge
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	>
+	<com.eureton.warmaodds.widgets.DiscreetSpinner
+		style="@style/AttackStatsSpinner"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:id="@+id/ROLL_SP_TYPE"
+		/>
+	<TextView
+		style="@style/AttackStatsTextView"
+		android:id="@+id/ROLL_TV_TO"
+		/>
+	<TextView
+		style="@style/AttackStatsTextView"
+		android:id="@+id/ROLL_TV_DICE"
+		/>
+	<com.eureton.warmaodds.widgets.DiscreetSpinner
+		style="@style/AttackStatsSpinner"
+		/>
+	<com.eureton.warmaodds.widgets.DiscreetSpinner
+		style="@style/AttackStatsSpinner"
+		/>
+	<com.eureton.warmaodds.widgets.DiscreetSpinner
+		style="@style/AttackStatsSpinner"
+		/>
+</merge>

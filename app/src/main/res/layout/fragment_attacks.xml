@@ -1,0 +1,12 @@
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="com.eureton.warmaodds.views.impl.AttacksFragment"
+	style="@style/AttacksLayout"
+	>
+	<LinearLayout 
+		android:id="@+id/LL_ATTACKS"
+		style="@style/AttackContainer"
+		>
+	</LinearLayout>
+</ScrollView>

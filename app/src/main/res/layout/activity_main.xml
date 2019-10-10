@@ -1,0 +1,29 @@
+<com.eureton.warmaodds.widgets.SlidingPanelLayout
+	style="@style/Root"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:sothree="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	sothree:umanoShadowHeight="@dimen/main.sliding_shadow"
+	sothree:showTillTopOf="@+id/TOTALS_ROW_BOXES_HIT"
+	tools:context="com.eureton.warmaodds.views.impl.MainActivity"
+	tools:ignore="MergeRootFrame"
+	>
+	<FrameLayout
+		style="@style/AttacksWrapperLayout"
+		>
+		<fragment
+			style="@style/AttacksFragment"
+			android:id="@+id/FRAGMENT_MAIN"
+			/>
+		<ImageButton
+			style="@style/AddAttackBtn"
+			android:id="@+id/BT_ADDATTACK"
+			android:clickable="true"
+			android:contentDescription="@string/add_attack_description"
+			/>
+	</FrameLayout>
+	<fragment
+		style="@style/TotalsFragment"
+		android:id="@+id/FRAGMENT_TOTALS"
+		/>
+</com.eureton.warmaodds.widgets.SlidingPanelLayout>

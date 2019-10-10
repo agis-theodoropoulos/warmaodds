@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- the duration value is ignored and must be set in the ProgressBar style -->
+<rotate
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:fromDegrees="0"
+	android:pivotX="50%"
+	android:pivotY="50%"
+	android:toDegrees="360"
+	>
+	<bitmap
+		android:src="@drawable/cog_light"
+		android:gravity="center"
+		/>
+</rotate>

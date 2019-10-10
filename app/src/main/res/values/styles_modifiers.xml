@@ -1,0 +1,75 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="Theme.Modifiers">
+		<item name="android:actionBarStyle">@style/ActionBar.Modifiers</item>
+	</style>
+
+	<style name="ActionBar.Modifiers">
+		<item name="android:displayOptions">showHome|homeAsUp|showTitle</item>
+	</style>
+
+	<style name="ModifiersFragmentLayout">
+		<item name="android:name">com.eureton.warmaodds.views.impl.ModifiersFragment</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+	<style name="ModifiersLayout">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+	</style>
+
+	<style name="ModifiersTableLayout">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:shrinkColumns">*</item>
+		<item name="android:stretchColumns">*</item>
+		<item name="android:paddingTop">@dimen/modifiers.padding_top</item>
+		<item name="android:paddingRight">@dimen/modifiers.padding_right</item>
+		<item name="android:paddingBottom">@dimen/modifiers.padding_bottom</item>
+		<item name="android:paddingLeft">@dimen/modifiers.padding_left</item>
+	</style>
+
+	<style name="ModifiersCaption">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/modifiers.caption.text</item>
+	</style>
+
+	<style name="ModifiersCaption.Attack">
+		<item name="android:text">@string/modifiers_categories_attackroll</item>
+	</style>
+
+	<style name="ModifiersCaption.Damage">
+		<item name="android:text">@string/modifiers_categories_damageroll</item>
+	</style>
+
+	<style name="ModifiersCaption.OnHit">
+		<item name="android:text">@string/modifiers_categories_onhit</item>
+	</style>
+
+	<style name="ModifiersCaption.OnCrit">
+		<item name="android:text">@string/modifiers_categories_oncritical</item>
+	</style>
+
+	<style name="ModifiersCaption.OnKill">
+		<item name="android:text">@string/modifiers_categories_onkill</item>
+	</style>
+
+	<style name="ModifiersClearButtonLayout">
+		<item name="android:gravity">center_horizontal</item>
+	</style>
+
+	<style name="ModifiersClearButton" parent="@style/BaseButton">
+		<item name="android:text">@string/modifiers.clear</item>
+		<item name="android:textColor">@color/modifiers.reset_button.text</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginTop">@dimen/modifiers.clear_button.margin_top</item>
+		<item name="android:drawableLeft">@drawable/clear_modifiers</item>
+		<item name="android:paddingTop">@dimen/modifiers.clear_button.padding_top</item>
+		<item name="android:paddingBottom">@dimen/modifiers.clear_button.padding_bottom</item>
+	</style>
+
+</resources>

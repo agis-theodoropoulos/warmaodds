@@ -1,0 +1,9 @@
+<resources>
+
+	<!-- totals -->
+	<dimen name="totals.padding">12dp</dimen>
+	<dimen name="totals.textSize">18sp</dimen>
+	<dimen name="totals.cell.padding_left">10dp</dimen>
+	<dimen name="totals.cell.padding_right">10dp</dimen>
+
+</resources>

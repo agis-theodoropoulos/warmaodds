@@ -1,0 +1,22 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:local="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:orientation="horizontal"
+	>
+	<com.eureton.warmaodds.widgets.NumberPicker
+		android:id="@+id/BOXES_NP_VALUE"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:descendantFocusability="blocksDescendants"
+		local:value="@integer/default.boxes"
+		local:minValue="@integer/default.boxes.min"
+		local:maxValue="@integer/default.boxes.max"
+		local:textColor="@color/dialogs.boxes.picker.text"
+		local:textHighlightColor="@color/dialogs.boxes.picker.textHighlight"
+		local:dividerColor="@color/dialogs.boxes.picker.divider"
+		/>
+</LinearLayout>

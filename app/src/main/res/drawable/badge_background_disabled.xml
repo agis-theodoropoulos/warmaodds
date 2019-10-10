@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+	<solid
+		android:color="@color/attack.badge.background.disabled"
+		/>
+	<padding
+		android:left="@dimen/attack.badge.padding_horizontal"
+		android:right="@dimen/attack.badge.padding_horizontal"
+		android:top="@dimen/attack.badge.padding_vertical"
+		android:bottom="@dimen/attack.badge.padding_vertical"
+		/>
+	<corners
+		android:radius="@dimen/attack.badge.corner_radius"
+		/>
+</shape>

@@ -1,0 +1,14 @@
+<com.eureton.warmaodds.views.impl.NarrowAttack
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:local="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/remove.background"
+	local:topLayout="@layout/widget_attack_stats"
+	local:bottomLayout="@layout/widget_attack_results"
+	local:leftHandle="@+id/LEFT_ATTACK_HANDLE"
+	local:rightHandle="@+id/RIGHT_ATTACK_HANDLE"
+	local:closeLayout="@layout/widget_attack_close"
+	local:closeIcon="@+id/ATTACK_CLOSE_ICON"
+	/>

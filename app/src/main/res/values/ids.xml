@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="NP_MAT" />
+    <item type="id" name="NP_DEF" />
+    <item type="id" name="TB_ATTACKEXTRADICE" />
+    <item type="id" name="NP_ATTACKDICE" />
+    <item type="id" name="TV_ATTACKPROB" />
+
+    <item type="id" name="NP_PNS" />
+    <item type="id" name="NP_ARM" />
+    <item type="id" name="TB_DAMAGEEXTRADICE" />
+    <item type="id" name="NP_DAMAGEDICE" />
+    <item type="id" name="TV_DAMAGEPROB" />
+    <item type="id" name="TV_ATTACKCRITPROB" />
+    <item type="id" name="L_AROLL" />
+    <item type="id" name="L_DROLL" />
+
+    <item type="id" name="ATK_BT_SWITCH" />
+
+    <item type="id" name="ROLL_SP_FROM" />
+    <item type="id" name="ROLL_SP_TO" />
+    <item type="id" name="ROLL_SP_DICE" />
+
+    <item type="id" name="INPUT_BOXES" />
+    <item type="id" name="INPUT_FOCUS" />
+    <item type="id" name="INPUT_TRANSFERS" />
+</resources>

@@ -1,0 +1,30 @@
+<FrameLayout
+	style="@style/Root"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="com.eureton.warmaodds.views.impl.MainActivity"
+	tools:ignore="MergeRootFrame"
+	>
+	<RelativeLayout
+		style="@style/MainPanel"
+		>
+		<fragment
+			style="@style/AttacksFragment"
+			android:id="@+id/FRAGMENT_MAIN"
+			/>
+		<fragment
+			style="@style/ModifiersFragment"
+			android:id="@+id/FRAGMENT_MODIFIERS"
+			/>
+		<fragment
+			style="@style/TotalsFragment"
+			android:id="@+id/FRAGMENT_TOTALS"
+			/>
+	</RelativeLayout>
+	<ImageButton
+		style="@style/AddAttackBtn"
+		android:id="@+id/BT_ADDATTACK"
+		android:clickable="true"
+		android:contentDescription="@string/add_attack_description"
+		/>
+</FrameLayout>

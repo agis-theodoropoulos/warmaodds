@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="activities.main">WarmaOdds</string>
+    <string name="activities.modifiers">Effects</string>
+    
+    <!-- menu -->
+    <string name="menu.boxes">Set Boxes</string>
+    <string name="menu.focus">Set Focus</string>
+    <string name="menu.fury">Set Fury</string>
+    <string name="menu.reset">Clear</string>
+    <string name="menu.kds">KD/Stationary</string>
+    <string name="menu.tough">Tough</string>
+    <string name="menu.tutorial">Tutorial</string>
+
+    <string name="num_dice">Dice #</string>
+    <string name="remove_attack">Remove Attack</string>
+    <string name="drawer_handle">Open drawer</string>
+    <string name="add_attack_description">Add Attack</string>
+    <string name="dialog.progress.title">Calculating&#8230;</string>
+    <string name="dialog.progress.message">We are crunching your numbers</string>
+    <string name="attacks.mat">MAT</string>
+    <string name="attacks.def">DEF</string>
+    <string name="attacks.pns">P+S</string>
+    <string name="attacks.pow">POW</string>
+    <string name="attacks.arm">ARM</string>
+
+    <string name="attack.results.hit">HIT</string>
+    <string name="attack.results.critical">CRIT</string>
+    <string name="attack.results.average_damage">AVG DMG</string>
+
+    <string name="totals.boxes">BOXES</string>
+    <string name="totals.focus">FOCUS</string>
+    <string name="totals.fury">FURY</string>
+    <string name="totals.count">ATTACKS</string>
+    <string name="totals.attack">HIT ANY</string>
+    <string name="totals.attack_all">HIT ALL</string>
+    <string name="totals.critical">CRIT ANY</string>
+    <string name="totals.critical_all">CRIT ALL</string>
+    <string name="totals.kill">KILL</string>
+
+	<!-- attack -->
+	<string name="attack.results.placeholder">- - - -</string>
+	<string name="attack.badge">EFFECTS</string>
+
+	<!-- dialogs -->
+	<string name="dialogs.boxes.title">Boxes</string>
+	<string name="dialogs.boxes.message">Set the number of boxes on the target</string>
+	<string name="dialogs.boxes.pos_btn">Set</string>
+	<string name="dialogs.boxes.neg_btn">Cancel</string>
+	<string name="dialogs.focus.title">Focus</string>
+	<string name="dialogs.focus.message">Set the number of focus points on the target</string>
+	<string name="dialogs.focus.pos_btn">Set</string>
+	<string name="dialogs.focus.neg_btn">Cancel</string>
+	<string name="dialogs.fury.title">Transfers</string>
+	<string name="dialogs.fury.message">Set the number of fury points on the target</string>
+	<string name="dialogs.fury.pos_btn">Set</string>
+	<string name="dialogs.fury.neg_btn">Cancel</string>
+
+    <string name="AUT">AUT</string>
+    <string name="KD">KD</string>
+    <string name="ND">ND</string>
+
+    <string-array name="mat_values">
+        <item>@string/AUT</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="def_values">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="pow_values">
+        <item>@string/ND</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="arm_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+    </string-array>
+
+    <string-array name="attack_dice_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="damage_dice_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="type_values">
+        <item>MAT</item>
+        <item>RAT</item>
+        <item>MGC</item>
+    </string-array>
+
+    <string name="modifiers.clear">RESET</string>
+
+    <!-- effect categories -->
+    <string name="modifiers_categories_attackroll">Attack</string>
+    <string name="modifiers_categories_damageroll">Damage</string>
+    <string name="modifiers_categories_onhit">Hit</string>
+    <string name="modifiers_categories_oncritical">Critical</string>
+    <string name="modifiers_categories_onkill">Kill</string>
+
+    <!-- effects -->
+    <string-array name="modifiers_attackroll">
+        <item>None</item>
+		<item>Reroll</item>
+		<item>Discard Lowest</item>
+		<item>Discard Highest</item>
+    </string-array>
+
+    <string-array name="modifiers_damageroll">
+        <item>None</item>
+		<item>Reroll</item>
+		<item>Discard Lowest</item>
+    </string-array>
+
+    <string-array name="modifiers_onhit">
+        <item>None</item>
+        <item>DMG x2</item>
+		<item>Min 1 DMG</item>
+		<item>Auto 1 DMG</item>
+		<item>Auto 3 DMG</item>
+		<item>D3+3 DMG</item>
+		<item>KD/Stationary</item>
+    </string-array>
+
+    <string-array name="modifiers_oncritical">
+        <item>None</item>
+        <item>+1 DMG Die</item>
+		<item>KD/Stationary</item>
+    </string-array>
+
+    <string-array name="modifiers_onkill">
+        <item>None</item>
+		<item>No Tough</item>
+    </string-array>
+
+</resources>
